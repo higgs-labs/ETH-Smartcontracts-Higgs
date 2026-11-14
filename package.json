@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-wednesdays",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "slidev",
+    "dev:lesson01": "slidev ./lessons/01-fundamentals/slides.md",
+    "dev:lesson03": "slidev ./lessons/03-first-contract-remix/slides.md",
+    "dev:lesson04": "slidev ./lessons/04-foundry-local/slides.md",
+    "dev:lesson05": "slidev ./lessons/05-solidity-deep-dive/slides.md"
+  },
+  "devDependencies": {
+    "@shikijs/magic-move": "4.6.0",
+    "@slidev/cli": "52.19.2",
+    "@slidev/theme-default": "0.25.0"
+  }
+}
