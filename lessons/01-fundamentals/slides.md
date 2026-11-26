@@ -167,6 +167,14 @@ src: ./slides-rlp.md
 ---
 
 ---
+src: ./slides-p2p.md
+---
+
+---
+src: ./slides-cons.md
+---
+
+---
 layout: center
 ---
 
